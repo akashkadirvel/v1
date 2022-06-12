@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>User Entries | AK</title>
+    <link rel="icon" href="images/logo1.png" type="image/gif" size="24x24">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css'>
+    <!-- <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'> -->
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+    <link rel="stylesheet" href="css/userEntries.css">
+
+    <!-- Firebase files  -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+    <script src="js/firebase.js"></script>
+
+    <!-- End of Firebase files  -->
+
+    
+    <script src="js/utils.js"></script>
+</head>
+
+<body onload="readUserData('/entries'); updateUserSource('Entries');">
+<!-- onload="validateEntryUser();"> -->
+    <div class="pt-container">
+        <!-- <button class="btn btn-warning btn-logout" onclick="logout()">
+            <i class="fa fa-power-off"></i> Logout 
+        </button> -->
+        <div class="lists" id="form-entries">
+        </div>
+    </div>
+</body>
+</html>

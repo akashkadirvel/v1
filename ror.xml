@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://akashkadirvel.github.io/</title>
+  <link>https://akashkadirvel.github.io/</link>
+
+<item>
+     <link>https://akashkadirvel.github.io/?utm_src=Google</link>
+     <title>Akash Kadirvel -  Front End Developer | React Developer | Freelancer</title>
+     <description>Portfolio - FrontEnd Developer, Freelancer, React &amp; React Native Developer, Redux , UI Developer, Firebase. About, skill, experience of developer</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://akashkadirvel.github.io/Akash_Kadirvel_Resume.pdf</link>
+     <title>Akash Kadirvel Resume</title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://akashkadirvel.github.io/index.html?utm_src=Google</link>
+     <title>Akash Kadirvel -  Front End Developer | React Developer | Freelancer</title>
+     <description>Portfolio - FrontEnd Developer, Freelancer, React &amp; React Native Developer, Redux , UI Developer, Firebase. About, skill, experience of developer</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

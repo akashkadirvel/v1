@@ -1,0 +1,184 @@
+.pt-container{
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lists{
+    width: 60%;
+    padding: 30px 0px;
+}
+
+.list{
+    width: 100%;
+    min-height: 60px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user-info-list{
+    width: 100%;
+    min-height: 60px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.accordion{
+    border-radius: 10px;
+    border: 1px solid #dfe1e5;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion:hover{
+    -webkit-box-shadow: 0 1px 6px rgba(32,33,36,.28);
+	-moz-box-shadow: 0 1px 6px rgba(32,33,36,.28);
+	box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.user-contact-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 33.33%;
+}
+
+.user-contact{
+    width: 33.3%;
+}
+
+.details{
+    width: 70%;
+}
+
+.details i{
+    padding-right: 20px;
+    color: #2dde98;
+}
+
+.user-contact i{
+    padding-right: 20px;
+    color: #2dde98;
+}
+
+.contact-right a{
+    text-decoration: none;
+    color: #444;
+}
+
+.user-contact-name .fa-user{
+    font-size: 40px;
+    color: #2dde98;
+}
+
+.user-contact-name h5{
+    padding-left: 10px;
+    font-size: 20px;
+    color: #444;
+}
+
+.user-contact-name .fa-chevron-down, 
+.user-contact-name .fa-chevron-up{
+    margin-left: auto;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #2dde98;
+}
+
+.panel {
+    padding: 20px 18px;
+    /* margin-bottom: 10px; */
+    text-align: left;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    border-bottom-left-radius: 05px;
+    border-bottom-right-radius: 05px;
+    transition: all 0.5s ease-in-out;
+  }
+
+.accordion-hr{
+    border: 1px solid #ddd;
+    margin: 0px 15%;
+    background-color: #fff;
+}
+
+.btn-logout{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.no-data{
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.arrow{
+    padding-top: 10px;
+}
+
+.count-div{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+@media screen and ( max-width : 1024px){
+    .lists{
+        width: 90%;
+    }
+
+    .user-contact, .user-contact-name{
+        width: 40%;
+    }
+    .details{
+        width: 60%;
+    }
+    .arrow{
+        width: 10%;
+    }
+}
+
+@media screen and ( max-width : 520px){
+    .lists{
+        width: 90%;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .user-contact, .user-contact-name{
+        width: 100%;
+    }
+
+    .user-contact{
+        padding: 20px 0px 0px;
+    }
+    .user-contact-arrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .arrow{
+        padding: 0px;
+    }
+}
