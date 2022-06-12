@@ -1,2 +1,2 @@
-# v1
-v1.0 of my portfolio
+# akashkadirvel.github.io
+My Portfolio v1.0
